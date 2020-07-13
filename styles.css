@@ -1,0 +1,157 @@
+*{
+ padding: 0;
+ box-sizing: border-box;
+ background: rgba(256,256,256,0);
+ font-family: "Roboto";
+ color: #000000
+}
+
+div{
+display: flex;
+text-align: center;
+border: 0px;
+}
+
+a{
+ color: inherit;
+}
+
+h1{
+ color: inherit;
+ font-family: "Coda Caption";
+ background: rgba(256,256,256,0);
+}
+
+h2{
+ color:inherit;
+ text-align: left;
+ font-size: 1vw;
+}
+
+
+h3{
+ font-family: "Coda Caption";
+ align-self: center;
+ padding: 2vw;
+ width: 25vw;
+}
+
+p{
+ text-align: left;
+ text-indent: 2vw;
+ padding: 3vw;
+}
+
+ul{
+ padding: 3vw;
+}
+
+li{
+ text-align: left;
+}
+
+.sitename{
+ text-align: start;
+ text-transform: capitalize;
+ text-align: center;
+ font-family: "Coda Caption";
+ font-size: 8vw;
+ background: rgba(0, 0, 0, 0);
+ color: #ffffff;
+}
+
+.banner{
+ background: url("photos/Banner.png") center/cover no-repeat fixed ;
+ align-items: center;
+ justify-content: center;
+ height: 80vh;
+}
+
+.menu{
+ height: 10vh;
+ margin: 1vh;
+ padding: 1%;
+ background: white;
+ border-top: 0.5vh solid black;
+ border-bottom: 0.5vh solid black;
+ flex-direction: row;
+ justify-content: start;
+ align-items: center;
+}
+
+.menu a{
+ font-family: "Coda Caption";
+ text-decoration: none;
+}
+
+.dropdown{
+ align-items: center;
+ position: relative;
+ display: inline-block;
+ font-family: "Coda Caption";
+ background: rgba(256,256,256,0);
+ margin: 2%;
+ padding: 2vh;
+}
+
+.dropdowncontent{
+ display: none;
+ flex-direction: column;
+ justify-content: space-evenly;
+ width: 250px;
+ height: 100px;
+ position: absolute;
+ background-color: #f9f9f9;
+ box-shadow: 0px 2vw 2vw 2vw rgba(0,0,0,0.3);
+ padding: 1vh 1vw;
+ z-index: 1;
+}
+
+.dropdown:hover .dropdowncontent{
+ display:flex;
+}
+
+.dropdowncontent a{
+ font-family: "Coda Caption";
+ text-decoration: none;
+}
+
+.page{
+ font-weight: bold;
+ justify-content: flex-start;
+ height: 100vh;
+}
+
+.Paragraph{
+ border-left: 2px solid black;
+ flex-direction: row;
+ padding-left: 10px;
+ margin: 15px 0px;
+ margin-left: 0.5vw;
+ width: 76vw;
+}
+
+.contact:nth-child(1){
+ padding: 1vw;
+ margin: 1vw;
+ line-height: 7vh;
+ flex-direction: column;
+ align-items: center;
+ background: lightslategray;
+ color: honeydew;
+ width: 20vw;
+}
+
+.newsletter{
+ flex-direction: column;
+ display: flex;
+ justify-content: flex-start;
+}
+
+.bottom{
+ background: #151515;
+ height: 10vh;
+}
+
+
+
